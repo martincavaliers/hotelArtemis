@@ -1,0 +1,18 @@
+/* --------------Carousel---------------- */
+
+#carousel-container{
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 50px;
+}
+
+#carousel-slide{
+    height: 650px;
+}
+
+.carousel-caption{
+    padding-bottom: 100px;
+    color: white;
+}
+
+/* --------------/Carousel---------------- */
