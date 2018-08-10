@@ -1,3 +1,46 @@
+/* --------------Top Header---------------- */
+#top-header{
+    background-color: #3b72ad;
+    padding-bottom: 0;
+}
+
+#phone-info img{
+    padding: 5px 2px 5px 2px;
+    margin: 10px 0 10px 0;
+    background-color: white;
+    border-radius: 100%;
+    height:30px;
+    width: 30px;
+}
+
+#phone-info span{
+    color: white;
+    padding-top: 10px;
+}
+
+#phone-info a{
+    position: absolute;
+    right: 0px;
+    padding: 5px 10px 5px 10px;
+    margin: 7px 20px 10px 0;
+    color: white;
+    background-color: black;
+    border-radius: 2%;
+}
+
+#phone-info a:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #212121;
+}
+
+
+/* --------------/Top Header---------------- */
+
+
+
+
 /* --------------Carousel---------------- */
 
 #carousel-container{
