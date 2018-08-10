@@ -1,6 +1,13 @@
+/* --------------Global---------------- */
+body{
+    font-family: 'Nunito', sans-serif; 
+}
+
+/* --------------/Global---------------- */
+
 /* --------------Top Header---------------- */
 #top-header{
-    background-color: #3b72ad;
+    background-color: #6b91af;
     padding-bottom: 0;
 }
 
@@ -32,11 +39,32 @@
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    background-color: #212121;
+    background-color: #303030;
 }
 
 
 /* --------------/Top Header---------------- */
+
+/* --------------/Navbar---------------- */
+
+nav{
+    background-color: #f5f1f0;
+}
+
+nav a{
+    color: black;
+    padding-right: 8px;
+}
+
+#navbar-brand{
+    height: 70px;
+    padding-right: 15px;
+}
+
+
+/* --------------/Navbar---------------- */
+
+
 
 
 
@@ -67,3 +95,16 @@
     list-style-type: none;
 }
 /* --------------/Footer Links---------------- */
+
+/* --------------Media Queries---------------- */
+/* Turns off effect on mobile view */
+@media screen and (min-width: 989px) {
+    nav a:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        margin-left: 12px;
+        margin-right: 12px; 
+    } 
+  }
+/* --------------/Media Queries---------------- */
