@@ -101,6 +101,47 @@ nav a{
 
 /* --------------/Carousel---------------- */
 
+/* --------------Main Content---------------- */
+
+#main-header-div{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.info-box{
+    background-color: #6b91af;
+    font-size: 12pt;
+}
+
+.info-box h3{
+    padding: 30px 50px 5px 50px;
+}
+
+.info-box p{
+    padding: 0 50px 5px 50px;;
+}
+
+.info-box button{
+    margin-left: 50px;
+    margin-bottom: 12px;
+}
+
+.right-align{
+    text-align: right;
+}
+
+.right-align button{
+    margin-right: 50px;
+}
+
+#main-content-div img{
+    height: 500px;
+    width: 200px;
+}
+
+/* --------------/Main Content---------------- */
+
+
 /* --------------Footer Links---------------- */
 #footer-link-div ul{
     list-style: none;
