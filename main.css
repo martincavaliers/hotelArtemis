@@ -3,6 +3,14 @@ body{
     font-family: 'Nunito', sans-serif; 
 }
 
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.9px 0 0 0;
+}
+
 /* --------------/Global---------------- */
 
 /* --------------Top Header---------------- */
@@ -74,6 +82,7 @@ nav a{
 #carousel-container{
     padding-left: 0;
     padding-right: 0;
+    padding-top: 80px;
     margin-bottom: 50px;
 }
 
@@ -82,8 +91,12 @@ nav a{
 }
 
 .carousel-caption{
-    padding-bottom: 100px;
-    color: white;
+    padding-bottom: 78px;
+    color: #f5f1f0;
+}
+
+#carousel-container h3{
+    text-decoration: underline;
 }
 
 /* --------------/Carousel---------------- */
