@@ -213,6 +213,21 @@ nav a{
 }
 /* --------------/Footer Links---------------- */
 
+/* --------------Footer---------------- */
+
+footer{
+    background-color: #303030;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer span{
+    color: white;
+    font-size: 10pt;
+}
+
+/* --------------/Footer---------------- */
+
 /* --------------Media Queries---------------- */
 /* Turns off effect on mobile view */
 @media screen and (min-width: 989px) {
