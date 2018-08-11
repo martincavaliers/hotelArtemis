@@ -40,7 +40,7 @@ hr {
     margin: 7px 20px 10px 0;
     color: white;
     background-color: black;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 
 #phone-info a:hover{
@@ -57,6 +57,7 @@ hr {
 
 nav{
     background-color: #f5f1f0;
+    margin-bottom: 20px;
 }
 
 nav a{
@@ -141,8 +142,70 @@ nav a{
 
 /* --------------/Main Content---------------- */
 
+/* --------------Email Subscription---------------- */
+
+#email-sub-container{
+    background-color: #f7f7f7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+#email-sub-header{
+    background-color: white;
+    padding: 25px;
+}
+
+#email-sub-header h4{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+#email-sub-header p{
+    opacity: 0.5;
+    font-style: italic;
+}
+
+#email-sub-form{
+    background-color: #e9e9e9d7;
+    padding: 25px;
+}
+
+#email-sub-form button{
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#email-sub-form button:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #303030;
+}
+
+/* --------------/Email Subscription---------------- */
+
+
+
 
 /* --------------Footer Links---------------- */
+
+#footer-link-container{
+    background-color: #6b91af;  
+}
+
+#footer-link-div{
+    background-color: #6b91af;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer-link-div h6, li{
+    color: white;
+}
+
 #footer-link-div ul{
     list-style: none;
     padding: 0;
