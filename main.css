@@ -62,6 +62,7 @@ hr {
 nav{
     background-color: #f5f1f0;
     margin-bottom: 20px;
+    height: 180px;
 }
 
 nav a{
@@ -87,7 +88,7 @@ nav a{
 #carousel-container{
     padding-left: 0;
     padding-right: 0;
-    padding-top: 80px;
+    padding-top: 180px;
     margin-bottom: 50px;
 }
 
@@ -96,7 +97,7 @@ nav a{
 }
 
 .carousel-caption{
-    padding-bottom: 78px;
+    padding-bottom: 190px;
     color: #f5f1f0;
 }
 
