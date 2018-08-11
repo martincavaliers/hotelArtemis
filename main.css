@@ -57,12 +57,11 @@ hr {
 
 /* --------------/Top Header---------------- */
 
-/* --------------/Navbar---------------- */
+/* --------------Navbar---------------- */
 
 nav{
     background-color: #f5f1f0;
     margin-bottom: 20px;
-    height: 180px;
 }
 
 nav a{
@@ -88,7 +87,7 @@ nav a{
 #carousel-container{
     padding-left: 0;
     padding-right: 0;
-    padding-top: 180px;
+    padding-top: 80px;
     margin-bottom: 50px;
 }
 
@@ -97,7 +96,7 @@ nav a{
 }
 
 .carousel-caption{
-    padding-bottom: 190px;
+    padding-bottom: 70px;
     color: #f5f1f0;
 }
 
