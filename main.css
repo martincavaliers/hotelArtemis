@@ -239,4 +239,15 @@ footer span{
         margin-right: 12px; 
     } 
   }
+
+  @media screen and (max-width: 991px) {
+    #phone-info a{
+        display: none;
+    }
+
+    .add-margin{
+        margin-bottom: 30px;
+    }
+
+  }
 /* --------------/Media Queries---------------- */
