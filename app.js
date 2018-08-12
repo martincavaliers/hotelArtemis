@@ -20,7 +20,7 @@ $(document).ready(function(){
     // -----------Email Subscription---------------
     $(document).scroll(function(){
         if($(document).scrollTop() >= 2700){
-            $("#email-sub-header, #email-sub-form").fadeIn(3000);
+            $("#email-sub-header, #email-sub-form").fadeIn(3200);
         }
     });
 });
