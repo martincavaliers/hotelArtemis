@@ -18,9 +18,14 @@ $(document).ready(function(){
     // });
 
     // -----------Email Subscription---------------
-    $(document).scroll(function(){
-        if($(document).scrollTop() >= 2700){
-            $("#email-sub-header, #email-sub-form").fadeIn(3200);
-        }
-    });
+    
+    if(window.location.pathname == '/Users/martincoutts5/Documents/Web%20Dev%20Projects/hotelArtemis/index.html'){
+        $(document).scroll(function(){
+            if($(document).scrollTop() >= 2700){
+                $("#email-sub-header, #email-sub-form").fadeIn(3200);
+            }
+        }); 
+    }else{
+        $("#email-sub-header, #email-sub-form").show();
+    }
 });
