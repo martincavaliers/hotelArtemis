@@ -117,11 +117,11 @@ nav a{
 }
 
 .info-box{
-    background-color: #6b91af;
+    background-color: rgb(107,145,175, 0.7);
     font-size: 12pt;
 }
 
-.info-box h3{
+.info-box h3, h4{
     padding: 30px 50px 5px 50px;
 }
 
@@ -146,6 +146,13 @@ nav a{
     height: 500px;
     width: 200px;
 }
+
+#info-box-small{
+    background-color: rgba(245, 245, 245, 0.4);
+    margin: 30px;
+}
+
+#info-box-small
 
 /* Accomodation Main Content */
 
@@ -194,6 +201,43 @@ nav a{
     padding-left: 0;
 }
 /* /Weddings Main Content */
+
+/* Events Main Content */
+    #function-img{
+        background-image: url("img/images/events/function-room-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #events-white{
+        background-color: rgba(245, 245, 245, 0.6);
+    }
+
+    #events-white h4{
+        padding-left: 20px;
+    }
+
+    #events-white h5{
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+
+    #events-coordinator-btn button{
+        background-color: rgba(245, 245, 245, 0.6);
+        width: 75%;
+        padding: 5px;
+        margin: 30px;
+        border-radius: 5px;
+    }
+
+    #events-coordinator-btn button:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        background-color: #303030;
+        color: white;
+    }
+/* /Events Main Content */
 
 /* --------------/Main Content---------------- */
 
@@ -311,7 +355,7 @@ footer span{
     }
 
     .merge-wedding{
-        background-color: rgba(245, 245, 245, 0.5);
+        background-color: rgba(245, 245, 245, 0.6);
     }
 
     .merge-hide{
