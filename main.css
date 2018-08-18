@@ -15,6 +15,9 @@ hr {
     display: none;
 }
 
+.inactive-nav{
+    display: none;
+}
 /* --------------/Global---------------- */
 
 /* --------------Top Header---------------- */
@@ -171,9 +174,25 @@ nav a{
 .wedding-quote-div{
     background-color: #f5f1f0;
     margin-top: 30px;
-    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 15px #333;
 }
 
+.wedding-quote-div p, h5, span{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.wedding-quote-div span{
+    padding-bottom: 50px;
+}
+
+.wedding-quote-div:nth-of-type(2n){
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 0;
+}
 /* /Weddings Main Content */
 
 /* --------------/Main Content---------------- */
@@ -255,7 +274,7 @@ footer{
     background-color: #303030;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 footer span{
@@ -284,6 +303,19 @@ footer span{
 
     .add-margin{
         margin-bottom: 30px;
+    }
+
+    /* Merging adjacent image into background on mobile view */
+    #merge-wedding-background{
+        background-image: url("img/images/weddings/wedding-3.jpg");
+    }
+
+    .merge-wedding{
+        background-color: rgba(245, 245, 245, 0.5);
+    }
+
+    .merge-hide{
+        display: none;
     }
 
   }
