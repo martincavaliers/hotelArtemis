@@ -332,6 +332,19 @@ nav a{
 
 /* /Directions Styling */
 
+/* Contact Styling */
+
+#contact-container{
+    padding-top: 200px;
+}
+
+#contact-form{
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
+}
+
+/* /Contact Styling */
+
 /* --------------/Main Content---------------- */
 
 /* --------------Email Subscription---------------- */
