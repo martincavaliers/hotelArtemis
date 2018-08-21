@@ -28,4 +28,22 @@ $(document).ready(function(){
     }else{
         $("#email-sub-header, #email-sub-form").show();
     }
+
+    // -----------Directions Dropdown---------------
+    // Car Directions
+    $("#car-dropdown").click(function(){
+        if($("#car-directions").css('display') === 'none'){
+            $("#car-directions").show(1000);
+        }else{
+            $("#car-directions").hide(1000); 
+        }
+    });
+
+    $("#public-transport-dropdown").click(function(){
+        if($("#public-transport-directions").css('display') === 'none'){
+            $("#public-transport-directions").show(1000);
+        }else{
+            $("#public-transport-directions").hide(1000); 
+        }
+    });
 });

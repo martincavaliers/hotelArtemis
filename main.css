@@ -301,6 +301,24 @@ nav a{
 
 /* /Offers Styling */
 
+/* Directions Styling */
+
+#directions-map-header{
+    width: 100%;
+}
+
+#directions-container{
+    background-image: url(img/images/directions/exterior-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#car-directions, #public-transport-directions{
+    display: none;
+}
+
+/* /Directions Styling */
+
 /* --------------/Main Content---------------- */
 
 /* --------------Email Subscription---------------- */
