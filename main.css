@@ -313,6 +313,19 @@ nav a{
     background-size: cover;
 }
 
+#directions-container button{
+    width: 80%;
+    margin-left: 65px;
+    padding: 6px;
+    background-color: rgb(107,145,175, 0.95);
+    color: white;
+    border-radius: 5px;
+}
+
+#directions-container button:hover{
+    background-color: rgba(65, 130, 180, 0.9);
+}
+
 #car-directions, #public-transport-directions{
     display: none;
 }
