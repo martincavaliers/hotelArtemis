@@ -20,13 +20,22 @@ $(document).ready(function(){
     $(window).resize(function(){
         screenSize = $(window).width();
         if(screenSize > 982){
-            $("#nav").css("height", "150px");  
+            $("#nav").css("height", "150px");        
         }else{
             $("#nav").css("height", "inherit");
         }
     });
-    
 
+    $(document).scroll(function () {
+        if (screenSize > 982) {
+            if ($(document).scrollTop() >= 200) {
+                $("#nav").css("height", "inherit");
+            } else {
+                $("#nav").css("height", "150px");
+            }
+        }
+    }); 
+    
 
     // -----------Email Subscription---------------
     

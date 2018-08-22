@@ -464,6 +464,10 @@ footer span{
     #email-sub-form button{
         margin-top: -30px;
     }
+    /* Fixes issue with larger navbar covering top */
+    #contact-container{
+        margin-top: 50px;
+    }
   }
 
 /* Turns off effect on mobile view */
