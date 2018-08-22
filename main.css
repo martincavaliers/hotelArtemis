@@ -22,7 +22,7 @@ hr {
 
 /* --------------Top Header---------------- */
 #top-header{
-    background-color: #6b91af;
+    background-color: #6B91AF;
     padding-bottom: 0;
 }
 
@@ -117,7 +117,7 @@ nav a{
 }
 
 .info-box{
-    background-color: rgba(107,145,175, 0.9);
+    background-color: #6B91AF;
     font-size: 12pt;
 }
 
@@ -322,7 +322,7 @@ nav a{
     width: 80%;
     margin-left: 65px;
     padding: 6px;
-    background-color: rgba(107,145,175, 0.95);
+    background-color: #6B91AF;
     color: white;
     border-radius: 5px;
 }
@@ -422,11 +422,11 @@ nav a{
 /* --------------Footer Links---------------- */
 
 #footer-link-container{
-    background-color: #6b91af;  
+    background-color: #6B91AF;  
 }
 
 #footer-link-div{
-    background-color: #6b91af;
+    background-color: #6B91AF;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -508,6 +508,30 @@ footer span{
     #contact-form{
         margin-right: 0;
         margin-bottom: 40px;
+    }
+
+    /* ----Fixes issues in mobile view---------- */
+    .info-box{
+        background-color: #8cb1db;
+        font-size: 12pt;
+    }
+
+    #directions-container button{
+        width: 80%;
+        margin-left: 65px;
+        padding: 6px;
+        background-color: #8cb1db;
+        color: white;
+        border-radius: 5px;
+    }
+
+    #contact-submit-btn{
+        color: white;
+        background-color: #8cb1db;
+        border-radius: 5px;
+        padding: 5px 10px 5px 10px;
+        margin-left: 0;
+        margin-top: 7px;;
     }
 
   }
