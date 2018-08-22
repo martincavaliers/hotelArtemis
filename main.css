@@ -117,7 +117,7 @@ nav a{
 }
 
 .info-box{
-    background-color: rgb(107,145,175, 0.9);
+    background-color: rgba(107,145,175, 0.9);
     font-size: 12pt;
 }
 
@@ -322,7 +322,7 @@ nav a{
     width: 80%;
     margin-left: 65px;
     padding: 6px;
-    background-color: rgb(107,145,175, 0.95);
+    background-color: rgba(107,145,175, 0.95);
     color: white;
     border-radius: 5px;
 }
@@ -360,7 +360,7 @@ nav a{
 
 #contact-submit-btn{
     color: white;
-    background-color: rgb(107,145,175, 0.95);
+    background-color: rgba(107,145,175, 0.95);
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
     margin-left: 0;
