@@ -1,5 +1,11 @@
 'use strict'
 
+// Gets screensize of browser window on load
+let screenSize = $(window).width();
+// Makes sure correct size on load
+if(screenSize > 982){
+    $("#nav").css("height", "150px");  
+}
 
 $(document).ready(function(){    
     $(".carousel-text").fadeIn(3000);
@@ -7,7 +13,20 @@ $(document).ready(function(){
     $("#email-sub-header, #email-sub-form").hide();
 
     // Makes sure elements hidden on load
-    $(".carousel-caption").children().removeClass("no-js");    
+    $(".carousel-caption").children().removeClass("no-js");
+    
+    // -----------Navbar Resizing---------------
+
+    $(window).resize(function(){
+        screenSize = $(window).width();
+        if(screenSize > 982){
+            $("#nav").css("height", "150px");  
+        }else{
+            $("#nav").css("height", "inherit");
+        }
+    });
+    
+
 
     // -----------Email Subscription---------------
     
